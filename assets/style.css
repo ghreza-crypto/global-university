@@ -465,8 +465,6 @@ body {
     line-height: normal;
   }
 
-
-
   .blur {
     padding-top: 8%;
     padding-left: 9%;
@@ -527,8 +525,6 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 5%;
   }
-
-
 
   .partners .line3 {
     width: 2%;
