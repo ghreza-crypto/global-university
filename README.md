@@ -54,7 +54,15 @@
   </ul>
 </details>
 
+<!-- Template Reference -->
 
+## 🚀 Template Reference <a name="template-reference"></a>
+
+> Here you can find original project template by Clindy Shin Behance
+
+- [Original template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015%5D)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -62,7 +70,7 @@
 
 > Here you can find my project demo
 
-- [Live Demo Link](https:https://ghreza-crypto.github.io)
+- [Live Demo Link](https://ghreza-crypto.github.io/global-university/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,11 +94,11 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```bash
-git clone https://github.com/ghreza-crypto/portfolio.git
+git clone https://github.com/ghreza-crypto/global-university.git
 ```
 2. Open terminal and cd into project
 ```bash
-cd portfolio
+cd global-university
 ```
 3. Open the index.html in your brower:
 ```bash
@@ -109,6 +117,10 @@ npm install --save-dev hint@7.x
 2. Install StyleLint
 ```bash
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x 
+```
+3. Install eslint
+```bash
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x 
 ```
 ## Check Linters Error
 1. To check CSS or SCSS linters error:
@@ -173,10 +185,4 @@ I would like to thank from Microverse and all of my teammates.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
