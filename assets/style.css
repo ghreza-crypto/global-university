@@ -495,7 +495,12 @@ body {
         text-decoration: none;
     }
     .partners .line3{
-        width: 3%;
+        width: 2%;
+        margin-top: 2px;
+    }
+    .line{
+        width: 2%;
+        margin-top: 2px;
     }
 
 }
