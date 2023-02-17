@@ -48,27 +48,27 @@ body {
   font-weight: bold;
   letter-spacing: 1px;
   font-style: italic;
-  color: #5a3f3b;
+  color: #ec5242;
 }
 
 .title {
   font-size: xx-large;
-  font-weight: bold;
-  color: #8f6b6b;
+  font-weight: 900;
+  color: #ec5242;
 }
 
 .introDescription {
-  border: 4px solid rgb(10 10 10 / 47%);
+  border: 2px solid white;
   padding: 5%;
-  color: #9f9c9c;
+  color: #272a31;
   margin-top: 10%;
   margin-bottom: 10%;
-  background-color: rgba(237, 230, 230, 0.9);
+  background-color: #d3d3d3;
 }
 
 .introFooter {
   font-size: x-large;
-  color: #f8f5f5;
+  color: white;
   padding-left: 3%;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 .mainProgramWrapper h3 {
-  color: #ff5036;
+  color: #ec5242;
 }
 
 .programsContainer {
@@ -112,7 +112,7 @@ body {
 }
 
 .holeProgram {
-  background-color: #ff4f38;
+  background-color: #ec5242;
   padding: 5%;
   margin: 5%;
   color: white;
@@ -125,13 +125,13 @@ body {
 }
 
 /* Featured lecturers */
-.lecturers > h1 {
+.lecturers > h3 {
   text-align: center;
   margin-top: 5%;
 }
 
 .line {
-  border: 2px solid #ff4f38;
+  border: 2px solid #ec5242;
   width: 10%;
   margin: 0 auto;
 }
@@ -158,7 +158,7 @@ body {
 }
 
 .line2 {
-  border: 1px solid #383434;
+  border: 1px solid #272a31;
   width: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -166,7 +166,7 @@ body {
 
 /* partners */
 .partners {
-  background-color: #414246;
+  background-color: #272a31;
 }
 
 .partnersTitle {
@@ -176,7 +176,7 @@ body {
 }
 
 .partners .line3 {
-  border: 2px solid #ff4f38;
+  border: 2px solid #ec5242;
   width: 7%;
   margin: 0 auto;
 }
@@ -196,7 +196,7 @@ body {
 /* footer */
 .footer {
   height: 200px;
-  color: black;
+  color: #272a31;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,6 +225,7 @@ body {
 
 .introFooterAbout {
   font-size: small;
+  font-weight: 900;
 }
 
 /* about logo */
@@ -290,7 +291,7 @@ body {
   gap: 5px;
 }
 
-/* mobile menu section */
+/* mobile menu section (only apply on mobile view not desktop */
 @media only screen and (max-width: 768px) {
   .navbar {
     visibility: hidden;
@@ -369,8 +370,13 @@ body {
   transition: left 0.8s, visibility 0.8s, opacity 0.4s;
 }
 
-/* end of mobile menue section */
+/* end of mobile menu section */
+.footerBody {
+  background-color: #272a31;
+  color: white;
+}
 
+/* for desktop view */
 @media only screen and (min-width: 768px) {
   .hamburger {
     display: none;
@@ -421,7 +427,7 @@ body {
 
   .navbarLinks a {
     text-decoration: none;
-    color: #7d7b7b;
+    color: #272a31;
   }
 
   .navbarLinks li {
@@ -501,5 +507,9 @@ body {
   .line {
     width: 2%;
     margin-top: 2px;
+  }
+
+  .title {
+    font-size: 60px;
   }
 }
