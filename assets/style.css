@@ -1,0 +1,542 @@
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f8f5f5;
+  min-height: 100vh;
+}
+
+.hamburger {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10%;
+}
+
+/* intro section */
+.intro {
+  background-image: url('./images/header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.blur {
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  padding-left: 2%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.welcome {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 900;
+  color: #ec5242;
+}
+
+.introDescription {
+  border: 2px solid white;
+  padding: 5%;
+  color: #272a31;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: #d3d3d3;
+}
+
+.introFooter {
+  font-size: x-large;
+  color: white;
+  padding-left: 3%;
+}
+
+/* Main programs section */
+.programs {
+  background-image: url('./images/dot.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #303440;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.mainProgram {
+  text-align: center;
+  color: white;
+  margin-bottom: 1%;
+}
+
+.mainProgramWrapper {
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainProgramWrapper h3 {
+  color: #ec5242;
+}
+
+.programsContainer {
+  display: grid;
+  gap: 8px;
+  padding-top: 2%;
+}
+
+.holeProgram {
+  background-color: #ec5242;
+  padding: 5%;
+  margin: 5%;
+  color: white;
+  text-align: center;
+}
+
+.holeProgram a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Featured lecturers */
+.lecturers > h3 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.line {
+  border: 2px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.lecturersContainer {
+  padding: 5%;
+  display: grid;
+  gap: 20px;
+}
+
+.lecturersWrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5%;
+}
+
+.lecturersWrapper img {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.lecturersDescription {
+  text-align: left;
+}
+
+.line2 {
+  border: 1px solid #272a31;
+  width: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* partners */
+.partners {
+  background-color: #272a31;
+}
+
+.partnersTitle {
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+}
+
+.partners .line3 {
+  border: 2px solid #ec5242;
+  width: 7%;
+  margin: 0 auto;
+}
+
+.sponsors img {
+  width: 30%;
+  margin: 5%;
+}
+
+.sponsors {
+  padding: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* footer */
+.footer {
+  height: 200px;
+  color: #272a31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  width: 100%;
+}
+
+.footerWrapper div {
+  text-align: center;
+}
+
+/* about page */
+.aboutIntroDescription {
+  background-color: #fff;
+  border: 1px solid #9b9797;
+}
+
+.aboutBlur {
+  text-align: center;
+}
+
+.introFooterAbout {
+  font-size: small;
+  font-weight: 900;
+}
+
+/* about logo */
+.aboutLogo {
+  padding: 7%;
+}
+
+.aboutLogoTitle {
+  text-align: center;
+  font-size: x-large;
+}
+
+.aboutLogoDescription {
+  text-align: center;
+  font-size: large;
+  margin-top: 3%;
+}
+
+.aboutLogoImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.aboutLogoImg img {
+  border-radius: 40px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* previous activities about */
+
+.previousActivities {
+  padding: 5%;
+}
+
+.previousActivitiesTitle {
+  font-size: x-large;
+  text-align: center;
+}
+
+.graduate1 {
+  background-image: url('./images/graduate1.jpg');
+}
+
+.graduate2 {
+  background-image: url('./images/graduate2.jpg');
+}
+
+.graduate {
+  margin-top: 7%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: large;
+  gap: 5px;
+}
+
+/* mobile menu section (only apply on mobile view not desktop */
+
+.navbar {
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(127, 128, 137);
+  filter: contrast(2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding-left: 20px;
+  left: 100%;
+  transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+  z-index: 999;
+}
+
+.navbarMenuClose {
+  display: inline-flex;
+}
+
+.close {
+  width: 12px;
+  height: 12px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin-bottom: 40px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #fff;
+}
+
+.firstRow {
+  order: 1;
+  margin-bottom: 10%;
+}
+
+.firstRow ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: center;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.logo {
+  display: none;
+}
+
+.active {
+  visibility: visible;
+  opacity: 0.8;
+  left: 0;
+  transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+}
+
+/* end of mobile menu section */
+.footerBody {
+  background-color: #272a31;
+  color: white;
+}
+
+/* for desktop view */
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    filter: none;
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding-left: 0%;
+    left: auto;
+    transition: none;
+    z-index: 999;
+  }
+
+  .navbarMenuClose {
+    display: none;
+  }
+
+  .firstRow {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 4px;
+    margin-bottom: 0%;
+  }
+
+  .firstRow ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3%;
+    justify-content: right;
+    padding-right: 10%;
+    align-items: center;
+  }
+
+  .firstRow ul li i {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbarLinks li {
+    padding-left: 25px;
+  }
+
+  .navbar ul li {
+    margin-bottom: auto;
+  }
+
+  .secondRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 60px;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .navbarLinks {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .navbarLinks a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .logo a {
+    text-decoration: none;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #272a31;
+    font-size: medium;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+  .blur {
+    padding-top: 8%;
+    padding-left: 9%;
+    padding-right: 30%;
+  }
+
+  .programsContainer {
+    padding-top: 5%;
+    display: flex;
+  }
+
+  .mainProgramWrapper {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 1%;
+  }
+
+  .holeProgram {
+    background-color: transparent;
+  }
+
+  .lecturersContainer {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .sponsors {
+    padding: 5%;
+  }
+
+  .sponsors img {
+    width: 10%;
+    margin: 2%;
+  }
+
+  .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .social {
+    width: 15px;
+  }
+
+  .aboutBlur {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .aboutLogo {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .previosActivitesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+
+  .partners .line3 {
+    width: 2%;
+    margin-top: 2px;
+  }
+
+  .line {
+    width: 2%;
+    margin-top: 2px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+}
